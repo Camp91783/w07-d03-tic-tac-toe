@@ -7,25 +7,86 @@
 }
 
  #game-board {
-    height: 350px;
-    width: 350px;
-    background-color:none;
-    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    background-color:gainsboro;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 10px 10px 5px #888888;
+
 }
 #board {
-    width: 354px;
-    height: 354px;
+    width: 400px;
+    height: 400px;
     border-spacing:10;
-    margin-left: -10px;
-    margin-top: -10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px #888888;
 }
+
+
+h1 {
+    background-color: gainsboro;
+    font-size: 24pt
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+    color: green;
+}
+
+h2 {
+    background-color: gainsboro;
+    font-size: 24pt
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+
+}
+html {
+    background-color: gainsboro;
+    font-size: 24pt
+    color: gainsboro;
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+
+}
+
+body  {
+        font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+        font-size: 24pt
+        background-color:gainsboro;
+
+    }
+head {color: blue;}
+
+header {
+    background-color: gainsboro;
+    font-size: 24pt
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+
+}
+
+footer  {
+    background-color: gainsboro;
+    font-size: 24pt
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+
+}
+
+div {
+    background-color: gainsboro;
+    font-size: 30pt
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+    text-align: center;
+    -webkit-transform: rotateX(360deg); /* Safari */
+    transform: rotateX(360deg);
+}
+
 td {
     height: 116px;
     width: 116px;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 40pt;
-    border: 10px solid #000000;
-    color: #000000;
+    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+    font-size: 90pt;
+    border: 10px solid sienna;
+    color: coral;
+    box-shadow: 10px 10px 5px #888888;
+
 }
 
+p {text-align: center}
