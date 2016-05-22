@@ -116,18 +116,26 @@ function checkWinner(){
 
     scoreC = document.getElementById("c-score");
     scoreC.innerHTML=cScore;
-    alert("STALEMATE");
-// launches endGame process
+    alert("cats game");
     endGame();
-// adds an entry to the running Game Log
+
     var para = document.createElement("li");
-    var node = document.createTextNode("STALEMATE.");
+    var node = document.createTextNode("cats game.");
     para.appendChild(node);
     var element = document.getElementById("game-log");
     element.appendChild(para);
   }
 }
-// endGame procedure to hide messages and turn off all EventListeners
+
+function resetGame(){
+  newGame();
+  xPlayerWins = 0
+  oPlayerWins = 0
+  turnSwitch = 0
+  xScoreDisplay();
+  oScoreDisplay();
+  playerToggle();
+}
 function endGame(){
   elementX = document.getElementById("player-x-ready");
   elementX.setAttribute("class", "hidden");
