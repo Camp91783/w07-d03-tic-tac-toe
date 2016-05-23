@@ -1,13 +1,11 @@
 <!doctype html>
+  <header id="conatainer">
+    <h1 class="neon">
+       <a href="http://camp91783.github.io/w07-d03-tic-tac-toe">Tic-Tac-Toe</a>
+    </h1>
+</div>
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
-<canvas id="canvas" width="800" height="200"></canvas>
-<font size= "7"><center><script type="text/javascript">
-   var message = "Tic Tac Toe.";
-   var colors = new Array("#A7A7A7","#7E7F80","#9F9F9F", "#4F5152", "#323434"); // red, green, blue
-   for (var i = 0; i < message.length; i++)
-      document.write("<span style=\"color:" + colors[(i % colors.length)] + ";\">" + message[i] + "</span>");
-</script></center></font>
 <html>
 <body>
 
@@ -15,8 +13,7 @@
   <title>Tic Tac Toe</title>
   <link rel="stylesheet" type="text/css" href="./styles.css">
   <script src="./script.js"></script>
-  <div class="container">
-    <h1>Tic Tac Toe</h1>
+
 
     
 
@@ -36,7 +33,7 @@
         <p class="new-game" id="new-game-prompt">Play again?</p>
       </div>
       <div id="tie-game" class="hidden">
-        <p class="outcome-message">Tie game! Nobody wins!</p>
+        <p class="outcome-message">Tie game! Try Again!</p>
         <p class="new-game" id="new-game-prompt">Play again?</p>
       </div>
     </div>
@@ -80,4 +77,5 @@
   <a>
   </a>
 </body>
+<h3> This is basic Tic Tac Toe game created for the Star City Code School as part of the unit on JavaScript, CSS, and HTML.  Peter Camp 05/22/2016 </h3> 
 </html>

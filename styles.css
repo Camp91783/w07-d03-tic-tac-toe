@@ -26,6 +26,13 @@
     box-shadow: 10px 10px 5px #2B2B2C;
 }
 
+h3  {
+    color: white;
+}
+
+h1   {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
 
 h1 {
     font-size: 36pt
@@ -37,6 +44,39 @@ h1 {
 }
 
 h1  {
+background: #000;
+}
+@font-face {
+font-family: 'Source Sans Pro', sans-serif
+font-style: normal;
+font-weight: 400;
+src: url(fonts/paprika.eot);
+src: url(fonts/paprika.eot) format('embedded-opentype'), url(fonts/paprika.woff) format('woff');
+}
+#header{
+width: 800px;
+margin: 0 auto;
+}
+a{
+text-decoration: none;
+color: #fff;
+font-family: "Paprika";
+}
+.neon{
+text-align: center;
+margin: 100px auto;
+font-size: 100px;
+text-transform: uppercase;
+color: white;
+text-shadow:0 0 10px white, 
+  0 0 20px white, 
+  0 0 30px white, 
+  0 0 40px #78F015, 
+  0 0 70px #78F015, 
+  0 0 80px #78F015, 
+  0 0 100px #78F015, 
+  0 0 150px #78F015;
+}
     
 }
 
