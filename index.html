@@ -2,12 +2,12 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
 <canvas id="canvas" width="800" height="200"></canvas>
-<center><script type="text/javascript">
-   var message = "The Sophie Camp Tic Tac Toe Game.";
-   var colors = new Array("#802B66","#6E256E","#582A72", "#4A2D73", "#323875", "#246C60", "#5E9732"); // red, green, blue
+<font size= "7"><center><script type="text/javascript">
+   var message = "Tic Tac Toe.";
+   var colors = new Array("#A7A7A7","#7E7F80","#9F9F9F", "#4F5152", "#323434"); // red, green, blue
    for (var i = 0; i < message.length; i++)
       document.write("<span style=\"color:" + colors[(i % colors.length)] + ";\">" + message[i] + "</span>");
-</script></center>
+</script></center></font>
 <html>
 <body>
 
@@ -22,10 +22,10 @@
 
     <div class="message-container">
       <div id="player-x-ready" class="visible">
-        <p class="ready-message">Sophie, it's your move!</p>
+        <p class="ready-message">X, it's your move!</p>
       </div>
       <div id="player-o-ready" class="hidden">
-        <p class="ready-message">Shannon, it's your move!</p>
+        <p class="ready-message">O, it's your move!</p>
       </div>
       <div id="player-x-wins" class="hidden">
         <p class="outcome-message"></p>
@@ -71,12 +71,13 @@
     <p class="score"><span id=""></span></p>
   </div>
     </div>
-
+    
   </div>
   <br>
   <br>
   <br>
   </body>
+  <a>
   </a>
 </body>
 </html>
