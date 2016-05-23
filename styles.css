@@ -9,21 +9,22 @@
 
 
  #game-board {
-    height: 500px;
-    width: 500px;
+    height: 700px;
+    width: 700px;
     background-color:#7E888F;
+    background:-webkit-linear-gradient(top,  #4C4C4C 0%,#B7BBB4 100%);
     margin: 10px auto;
     position: relative;
-    box-shadow: 10px 10px 5px #2B2B2C;
+    box-shadow: 10px 10px 5px #A4A4A4;
 
 }
 #board {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-spacing:10;
     margin-left: 30px;
     margin-top: 30px;
-    box-shadow: 10px 10px 5px #2B2B2C;
+    box-shadow: 10px 10px 5px #A4A4A4;
 }
 
 h3  {
@@ -64,18 +65,18 @@ font-family: "Paprika";
 }
 .neon{
 text-align: center;
-margin: 100px auto;
+margin: 0px auto;
 font-size: 100px;
 text-transform: uppercase;
 color: white;
 text-shadow:0 0 10px white, 
   0 0 20px white, 
   0 0 30px white, 
-  0 0 40px #78F015, 
-  0 0 70px #78F015, 
-  0 0 80px #78F015, 
-  0 0 100px #78F015, 
-  0 0 150px #78F015;
+  0 0 40px #32AFF9, 
+  0 0 70px #32AFF9, 
+  0 0 80px #32AFF9, 
+  0 0 100px #32AFF9, 
+  0 0 150px #32AFF9;
 }
     
 }
@@ -139,19 +140,39 @@ html    {
 }
 
 td {
-    height: 116px;
-    width: 116px;
+    height: 150px;
+    width: 150px;
     text-align: center;
-    font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 90pt;
     border: 10px solid #3E3F41;
     color: #2B2B2C;
     text-shadow: 4px 4px #3E3F41;
+    text-shadow:0 0 10px white, 
+    0 0 20px white, 
+    0 0 30px white, 
+    0 0 40px #A4A4A4, 
+    0 0 70px #A4A4A4, 
+    0 0 80px #A4A4A4, 
+    0 0 100px #A4A4A4, 
+    0 0 150px #A4A4A4;
 
 
 }
 
+img {
+     width: 200px;
+    height:300px;
+}
 
+.img2 {
+     width: 350px;
+    height:400px;
+}
+.message-container  {
+    color: white;
+}
 
 p {text-align: center}
+
 
